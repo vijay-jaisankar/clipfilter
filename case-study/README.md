@@ -10,3 +10,9 @@ This directory contains additional material regarding how the case study was set
 
 ## Method of generating the dataset
 To generate and apply these synthetic image filters, the [Qwen-Image-Edit-Fast Huggingface space](https://huggingface.co/spaces/multimodalart/Qwen-Image-Edit-Fast) was used. The prompt can be found in [PROMPT.txt](./PROMPT.txt).
+
+## Qualitative Analysis
+
+We qualitatively analyse the performance of GeoCLIP using path-occlusion blurring. [geoclip_qualitative_analysis.ipynb](./geoclip_qualitative_analysis.ipynb) contains more details on how the resulting heatmaps can be created and saved. The intention of this experiment is to explore this notion: *Can we find out the
+image regions the model is most sensitive to, and can this help reveal
+where and when the model goes wayward?*
