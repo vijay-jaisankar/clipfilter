@@ -2,7 +2,7 @@
 
 We select the test set of the [OSV-5M](https://osv5m.github.io/) dataset to assess the performance of CLIP models in geolocation in social media conditions. 
 
-1. First, run ```python download_hf_dataset.py``` that downloads and unzips the test section of the OSV-5M dataset. Please note that this script can take a lot of time due to large file sizes. After this step, you should have a directory with the path `./datasets/OpenWorld`.
+1. First, run ```python download_osm5v_dataset.py``` that downloads and unzips the test section of the OSV-5M dataset. Please note that this script can take a lot of time due to large file sizes. After this step, you should have a directory with the path `./datasets/OpenWorld`.
 2. Then, create a new directory to store intermediate outputs using `mkdir -p ./eurosat_outputs`. Run the intermediate step to filter out images from whitelisted/selected countries using ```python convert_dataset_eurosat.py ./eurosat_outputs```.
 3. Now, clone [ZCore](https://github.com/voxel51/zcore) using `git clone https://github.com/voxel51/zcore.git`. Note: You might also have to install extra dependencies using ```pip install fiftyone numpy==1.23.5```. 
 4. Copy the intermediate dataset created into the newly-created `zcore` directory: ```cd ./zcore && mkdir -p ./data && cp -r ../eurosat_outputs/eurosat10 ./data```.
