@@ -3,6 +3,12 @@
 
 Code release for the paper **CLIPFILTER: Towards assessing Geolocation privacy risks of CLIP-based models for Social media users**, accepted to [ICVGIP 2026](https://icvgip.in/2026/).
 
+![Map Visualisation](./static/map_visualisation.jpeg)
+
+# TL;DR
+If you post photos on social media, attackers/stalkers may use AI models (like CLIP-based models) to deduce your location. If you want to safeguard your location, using a black-and-white filter on your photos (and following good OPSEC/Operational security guidelines), is a good first step.
+
+
 # Abstract
 Building on the impressive advancements in representation learning, foundation models like CLIP have been adapted for diverse
 image understanding tasks. One such task is Image Geolocation,
@@ -21,8 +27,6 @@ white filters can be good initial defenses for social media users**
 and present a qualitative analysis of the spatial sensitivity of these
 models under different filters. We finally highlight important future
 research directions in this critical domain stemming from CLIPFILTER. Code and supplementary material for our work is released in this link: https://github.com/vijay-jaisankar/clipfilter.
-
----
 
 # Code
 Each subdirectory of this codebase contains nested READMEs with more information and instructions to set up and run experiments pertaining to CLIPFILTER.  
