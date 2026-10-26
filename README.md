@@ -35,5 +35,7 @@ Each subdirectory of this codebase contains nested READMEs with more information
 # Acknowledgements and Contact Details
 This project was done under the guidance of [Prof. Dinesh Babu Jayagopi](https://www.iiitb.ac.in/faculty/dinesh-babu-jayagopi).
 
+We would also like to thank the reviewers of ICVGIP 2026 for their valuable comments and suggestions, which improved the quality of the paper.
+
 Corresponding email: vijayjaisankar.vj@gmail.com
 
